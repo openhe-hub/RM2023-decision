@@ -1,0 +1,16 @@
+<launch>
+    <param name="decision_visualize_flag_" value="true"/>
+    <param name="fight_mode" value="2"/>
+    
+    <param name="loop_rate" value="5"/>
+    <param name="go_buff_time" value="6"/>
+    <param name="force_add_blood" value="0.25"/>
+    <param name="force_add_bullet" value="10"/>
+    <param name="search_points" value="16"/>
+    <param name="fight_distance" value="1.8"/>
+    <param name="back_distance" value="1.25"/>
+    <param name="attack_distance" value="2.0"/>
+    <param name="force_attack_distance" value="2.5"/>
+
+    <node pkg="robot_decision" type="robot_decision" name="robot_decision" output="screen"/>
+</launch>
